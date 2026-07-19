@@ -1,6 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "coordinateSystem": "percent",
+  "displayScale": 1.54,
+  "hoverZIndex": 50,
+  "allowSpriteOverflow": true,
+  "plaqueShowLevel": false,
   "terrain": "map/terrain-v1.webp",
   "tierThresholds": {
     "1": [1, 2],
@@ -9,13 +13,13 @@
     "4": [8, 10]
   },
   "modules": {
-    "农地": { "slug": "farmland", "x": 31, "y": 20, "width": 24, "height": 22 },
-    "林地": { "slug": "forest", "x": 63, "y": 19, "width": 25, "height": 20 },
-    "猎场": { "slug": "hunting", "x": 72, "y": 36, "width": 22, "height": 18 },
-    "工坊": { "slug": "workshop", "x": 30, "y": 42, "width": 20, "height": 18 },
-    "城堡": { "slug": "castle", "x": 51, "y": 43, "width": 18, "height": 18 },
-    "村庄": { "slug": "village", "x": 31, "y": 67, "width": 24, "height": 20 },
-    "港口": { "slug": "port", "x": 76, "y": 67, "width": 25, "height": 22 }
+    "农地": { "slug": "farmland", "x": 31, "y": 25, "width": 24, "height": 22, "plaqueY": 76 },
+    "林地": { "slug": "forest", "x": 63, "y": 24, "width": 25, "height": 20, "plaqueY": 87 },
+    "猎场": { "slug": "hunting", "x": 72, "y": 43, "width": 22, "height": 18, "plaqueY": 70 },
+    "工坊": { "slug": "workshop", "x": 30, "y": 49, "width": 20, "height": 18, "plaqueY": 70 },
+    "城堡": { "slug": "castle", "x": 51, "y": 45, "width": 18, "height": 18, "plaqueY": 76 },
+    "村庄": { "slug": "village", "x": 31, "y": 75, "width": 24, "height": 20, "plaqueY": 80 },
+    "港口": { "slug": "port", "x": 76, "y": 69, "width": 25, "height": 22, "plaqueY": 69 }
   },
   "moduleAssetPattern": "modules/{slug}/tier-{tier}.webp",
   "overlays": {
