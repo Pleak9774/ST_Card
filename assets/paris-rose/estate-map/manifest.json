@@ -5,7 +5,7 @@
   "hoverZIndex": 50,
   "allowSpriteOverflow": true,
   "plaqueShowLevel": false,
-  "terrain": "map/terrain-v1.webp",
+  "terrain": "map/terrain-v2.png",
   "tierThresholds": {
     "1": [1, 2],
     "2": [3, 4],
